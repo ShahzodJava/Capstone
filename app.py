@@ -15,7 +15,7 @@ def create_app(test_config=None):
   CORS(app)
 
 # Uncomment it only the first run
-  # drop_and_create()
+  #drop_and_create()
 
 
   @app.route('/')
