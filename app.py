@@ -7,10 +7,12 @@ from datetime import datetime
 import json
 from auth.auth import requires_auth, AuthError
 from models import drop_and_create, setup_db, Actor, Movie
+from flask_cors import CORS
 
 def create_app(test_config=None):
   app = Flask(__name__)
   setup_db(app)
+  CORS(app)
 
 # Uncomment it only the first run
   # drop_and_create()
