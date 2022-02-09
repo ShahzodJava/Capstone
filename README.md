@@ -134,7 +134,7 @@ All valid tokens are in the setup.sh file.
     "total_number_of_actors": 4
 }
 ```
-#### GET/actors/<id>
+#### GET/actors/<Int:id>
 - General: Returns full information about an actor and success value
 - Sample: `https://fsnp-capstone.herokuapp.com/actors/1`
 
@@ -177,9 +177,9 @@ All valid tokens are in the setup.sh file.
 }
 ```
 
-#### GET/movies/1
+#### GET/movies/<Int:Id>
 - General: Returns full information about a movie and success value
-- Sample: `https://fsnp-capstone.herokuapp.com/movies`
+- Sample: `https://fsnp-capstone.herokuapp.com/movies/1`
 
 ```bash
 {
