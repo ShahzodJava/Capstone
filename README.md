@@ -27,8 +27,6 @@ run the following command in terminal:
 source setup.sh
 ```
 
-Accessing the output at  [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
-
 ### Database Setup
 Before running the app create database capstone in the PostgreSQL server
 ```bash
